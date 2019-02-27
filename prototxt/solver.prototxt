@@ -1,6 +1,6 @@
 net: "/home/caffe-master/liveness_detection/anti_spoofing/ResNeXt.prototxt"
 test_iter: 3000
-test_interval: 5000
+test_interval: 1600
 test_initialization: true
 display: 200
 average_loss: 40
@@ -11,6 +11,6 @@ gamma: 0.5
 max_iter: 500000
 momentum: 0.9
 weight_decay: 0.0002
-snapshot: 5000
+snapshot: 1600
 snapshot_prefix: "/home/caffe-master/liveness_detection/anti_spoofing/snapshot/"
 solver_mode: GPU
